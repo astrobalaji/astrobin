@@ -210,6 +210,7 @@ urlpatterns = [
     url(r'^api/v2/common/', include('common.api_urls')),
     url(r'^api/v2/nestedcomments/', include('nested_comments.api_urls')),
     url(r'^api/v2/platesolving/', include('astrobin_apps_platesolving.api_urls')),
+    url(r'^api/v2/object_info/', include('astrobin_apps_object_info.api_urls')),
     url(r'^api/v2/rawdata/', include('rawdata.api_urls')),
 
     ###########################################################################

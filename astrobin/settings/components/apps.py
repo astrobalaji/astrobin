@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'rawdata',
     'astrobin_apps_images',
     'astrobin_apps_platesolving',
+    'astrobin_apps_object_info',
     'astrobin_apps_users',
     'astrobin_apps_donations',
     'astrobin_apps_premium',
